@@ -564,10 +564,11 @@ export default function App() {
       />
 
       <footer className="app__footer">
-        Direct links (.mp3, .wav, streams) play natively. YouTube links play
-        audio-only via a hidden player. Local uploads are saved on this device
-        and work offline. Installable as an app — look for "Install" in your
-        browser's menu.
+        Direct links (.mp3, .wav, streams) and local uploads keep playing in
+        the background and work offline. YouTube links play audio-only via a
+        hidden player, but YouTube pauses itself when the tab isn't in the
+        foreground — that's a YouTube limitation, not a Patchdeck one.
+        Installable as an app — look for "Install" in your browser's menu.
       </footer>
     </div>
   );
